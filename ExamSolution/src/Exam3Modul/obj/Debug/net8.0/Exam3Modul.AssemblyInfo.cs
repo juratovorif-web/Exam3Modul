@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Exam3Modul")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc460c86513b4e1ca6c360926bedf4818fe54553")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+778276d35054e1d77e0ad21d74c58a0710d8dcf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Exam3Modul")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Exam3Modul")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
