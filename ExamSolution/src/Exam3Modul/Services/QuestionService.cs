@@ -7,14 +7,21 @@ namespace Exam3Modul.Services;
 
 public class QuestionService : IQuestionService
 {
+    private readonly string FilePath;
+    public QuestionService()
+    {
+        FilePath = "E:\\code\\DotNet\\Exam\\Exam3Modul\\ExamSolution\\src\\Exam3Modul\\Exam3Modul.csproj";
+    }
+    Question questions = new Question();
+
     public Guid Create(QuestionCreateDto questionCreateDto)
     {
-        throw new NotImplementedException();
+        questionCreateDto
     }
 
     public QuestionService Delete(Guid questionId)
     {
-        throw new NotImplementedException();
+        
     }
 
     public List<QuestionGetDto> GetAll()
@@ -44,9 +51,10 @@ public class QuestionService : IQuestionService
 
         if (string.IsNullOrEmpty(json))
         {
-            Posts = new List<Post>();
+            Question = new List<Question>();
             return;
         }
 
-        Posts = JsonSerializer.Deserialize<List<Post>>(json) ?? new List<Post>();
+        Question = JsonSerializer.Deserialize<List<Question>>(json) ?? new List<Question>();
     }
+}

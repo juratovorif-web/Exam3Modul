@@ -2,5 +2,15 @@
 {
     public class Jovoblar
     {
+    1. Generik bu odiy qb etkanda <T> belgisi bolsa generik boladi generik ni foydali tarafi generic 
+    metod qb qoysek unga bza kere bogan value la berb iwlatsek boladi 
+    kere bop qosa yana caqrb bowqa value berb iwlatse boladi odiiy metod blan farqi odiy metodni string larga iwlagan bosa 
+    int li metod kere bopqosa yana boqatan metod qliwimiza kere uwanda generik metodimiza bossa uwani caqrb iwlatsek boladi 
+    bu kodimizani qsqartiradi va tartb li turadi
+    
+    2. .Net da kodlarimza Sialar ga boradi uyoda keyn sialarda validatsiyaladan otb git ga boradi keyn git mawiniy kodga otqzadi 
+    git faqat 3 ta .Net dagi tlni support qiladi 1 C#, 2F#, 3 Visual
+
+       
     }
 }
