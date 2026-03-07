@@ -17,32 +17,32 @@ namespace Exam3Modul.Controllers
         [HttpPost("create")]
         public Guid Create(QuestionCreateDto questionCreateDto)
         {
-            var questionId = QuestionService.(QuestionCreateDto);
+            var questionId = QuestionService.Create(questionCreateDto);
             return questionId;
         }
 
         [HttpGet("get-all")]
         public List<QuestionGetDto> GetAll()
         {
-            return QuestionService.GetAllQuestion();
+            return QuestionService.GetAll();
         }
 
         [HttpGet("get-by-id")]
         public QuestionGetDto? GetById(Guid questionId)
         {
-            return QuestionService.GetQuestionById(questionId);
+            return QuestionService.GetById(questionId);
         }
 
         [HttpDelete("delete")]
         public bool Delete(Guid questionId)
         {
-            return QuestionService.DeleteQuestion(questionId);
+            return QuestionService.Delete(questionId);
         }
 
         [HttpPut]
-        public bool Update(Guid questionId, QuestionUpdateDto qiestionUpdateDto)
+        public bool Update(QuestionUpdateDto questionUpdateDto)
         {
-            return QuestionService.UpdateQuestion(questionId, questionUpdateDto);
+            return QuestionService.Update(questionUpdateDto);
         }
     }
 

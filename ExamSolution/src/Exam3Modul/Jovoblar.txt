@@ -9,7 +9,7 @@
     bu kodimizani qsqartiradi va tartb li turadi
     
     2. .Net da kodlarimza Sialar ga boradi uyoda keyn sialarda validatsiyaladan otb git ga boradi keyn git mawiniy kodga otqzadi 
-    git faqat 3 ta .Net dagi tlni support qiladi 1 C#, 2F#, 3 Visual
+    git faqat 3 ta .Net dagi tlni support qiladi 1 C#, 2F#, 3 Visual besic
 
        
     }

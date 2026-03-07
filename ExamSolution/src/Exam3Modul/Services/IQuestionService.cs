@@ -7,7 +7,7 @@ public interface IQuestionService
     Guid Create(QuestionCreateDto questionCreateDto);
     List<QuestionGetDto> GetAll();
     QuestionGetDto? GetById(Guid questionId);
-    QuestionService Delete(Guid questionId);
-    QuestionUpdateDto Update(QuestionUpdateDto questionUpdateDto);
+    bool Delete(Guid questionId);
+    bool Update(QuestionUpdateDto questionUpdateDto);
 
 }
