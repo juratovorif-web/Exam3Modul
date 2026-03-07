@@ -1,0 +1,6 @@
+﻿namespace Exam3Modul
+{
+    public class Jovoblar
+    {
+    }
+}
